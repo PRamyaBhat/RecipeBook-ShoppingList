@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 
 // Data binding in action
+//Root component 
 export class AppComponent {
   name = 'Ramya bhat';
 }
+//It is good practice having the folder name equal our component name
