@@ -5,12 +5,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 //these are .ts files without the extension the extension is added by the webpack which bundles our project 
 //automatically
-import { ServerComponent } from './server/server.component'
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component'
 // For the understanding of the Angular
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
+    ServersComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent,
   ],
   imports: [
     BrowserModule
