@@ -1,7 +1,0 @@
-1.create two new Components (manually or with cli) WarningAlert and SuccessAlert
-2.Output them beneath each other in the AppComponent
-3.output a warning or success message in the Components
-4.Style the component apropriately(may be green or red text)
-
-Use external or internal templates and styles 
-Feel free to contain more components  nest them into each other  or play around with different types of selectors
